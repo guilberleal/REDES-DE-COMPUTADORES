@@ -1,0 +1,2 @@
+ip address add 8.2.1.253/30 dev eth0
+ip address add 8.2.1.65/27 dev eth1

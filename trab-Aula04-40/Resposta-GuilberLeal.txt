@@ -1,0 +1,30 @@
+﻿Aluno: Guilber Leal
+
+1. identificar as sub-redes:
+	7 sub-redes:
+		A = 32 hosts = h32.startup - r3.startup
+		B = 28 hosts = h28.startup - r4.startup
+		C = 12 hosts = h12.startup - r1.startup
+		D = 4 hosts = h4.startup - r1.startup
+		E = 2 hosts = r1.startup - r2.startup
+ 		F = 2 hosts = r2.startup - r3.startup
+		G = 2 hosts = r2.startup - r4.startup
+
+
+2. Atribuir endereço de rede com mascara de tamanho variável:
+
+	A – 8.2.1.0.0.0.0.0.0.0.0
+		8..2.1.0/26
+	B – 8.2.1.0.1.0.0.0.0.0.0
+		8.2.1.64/27
+	C – 8.2.1.0.1.1.0.0.0.0.0
+		8.2.1.96/28
+	D – 8.2.1.0.1.1.1.0.0.0.0
+		8.2.1.112/29
+	E – 8.2.1.0.1.1.1.1.0.0.0
+		8.2.1.120/30
+	F – 8.2.1.0.1.1.1.1.1.0.0
+		8.2.1.124/30
+	G – 8.2.1.1.1.1.1.1.1.0.0
+		8.2.1.252/30
+

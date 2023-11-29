@@ -1,0 +1,4 @@
+ip address add 4.3.2.1/24 dev eth0
+ip address add 10.0.0.1/24 dev eth1
+iptables -t nat -A PREROUTING -p tcp -s 4.3.2.2 --dport 80 -j DNAT --to-destination 10.0.0.2
+iptables -t nat -A PREROUTING -p tcp -s 4.3.2.3 --dport 80 -j DNAT --to-destination 10.0.0.3

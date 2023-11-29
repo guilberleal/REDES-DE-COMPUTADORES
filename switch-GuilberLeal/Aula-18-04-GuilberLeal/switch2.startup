@@ -1,0 +1,4 @@
+brctl addbr switch2
+brctl addif switch2 eth0
+brctl addif switch2 eth1
+ifconfig switch2 up
